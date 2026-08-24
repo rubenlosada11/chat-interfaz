@@ -5,7 +5,7 @@ Interfaz de chat construida con Next.js (App Router) y React, conectada a la API
 ## Instalación
 
 ```bash
-pnpm install
+npm install
 ```
 
 ## Variables de entorno
@@ -21,7 +21,7 @@ La clave se usa exclusivamente en el servidor (ruta `/api/chat`) y nunca se expo
 ## Ejecución
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 Abre [http://localhost:3000](http://localhost:3000).
@@ -29,9 +29,9 @@ Abre [http://localhost:3000](http://localhost:3000).
 ## Otros scripts
 
 ```bash
-pnpm build   # build de producción
-pnpm start   # arranca el build de producción
-pnpm lint    # ESLint (flat config, next lint fue eliminado en Next.js 16)
+npm run build   # build de producción
+npm start        # arranca el build de producción
+npm run lint     # ESLint (flat config, next lint fue eliminado en Next.js 16)
 ```
 
 ## Arquitectura
